@@ -92,3 +92,37 @@ nav ul li a:hover{
 .hero-section .right img{
     width: 100%;
 }
+    /* MENU SECTION */
+    #menusection{
+        padding: 100px 4rem;
+    }
+    #menusection h2{
+        text-align: center;
+        font-size: 28px;
+    }
+    .menu-container{
+        padding: 80px 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+  .menu-item{
+    width: 320px;
+    background: #fff;
+    padding: 20px;
+  }
+  .menu-item img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .menu-item h4{
+    padding-block: 15px;
+    color: #000;
+  }
+  #trendsection{
+    padding: 100px 4rem;
+    /* padding-top: 40px; */
+  }
