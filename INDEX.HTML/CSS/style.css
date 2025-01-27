@@ -55,3 +55,40 @@ nav ul li a:hover{
 .menu-icon{
   display: none;
 }
+  /* Hero section */
+  .hero-section{
+    height: calc(100vh-80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 4rem;
+}
+.hero-section .left{
+     width: 50%;
+}
+.hero-section .left h1{
+    font-size: 42px;
+}
+.hero-section .left p{
+    font-size: 18px;
+    color: #888;
+    padding-block: 20px;
+}
+.hero-section .left a{
+    font-weight: 600;
+}
+.btn{
+    background:#f44336 ;
+    padding: 12px 30PX;
+    display: inline-block;
+    transition: 0.45;
+}
+.btn:hover{
+    background: #e91101;
+}
+.hero-section .right{
+    width: 50%;
+}
+.hero-section .right img{
+    width: 100%;
+}
