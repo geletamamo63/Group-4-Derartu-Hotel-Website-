@@ -198,3 +198,8 @@ nav ul li a:hover{
 #blogsection{
   padding: 100px 4rem;
 }
+.blog{
+  width: 320px;
+  background: #fff;
+  padding: 15px;
+}
