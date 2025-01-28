@@ -66,9 +66,9 @@ nav ul li a:hover{
     justify-content: space-between;
     padding: 100px 4rem;
 }
-.hero-section .left{
+.hero-section .left {
      width: 50%;
-     background-image: url(../IMAGES/photo_2025-01-28_13-53-37.jpg);
+    
 }
 .hero-section .left h1{
     font-size: 42px;
