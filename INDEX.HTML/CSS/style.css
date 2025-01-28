@@ -58,6 +58,9 @@ nav ul li a:hover{
 .menu-icon{
   display: none;
 }
+.hero-section .left{
+    text-align: center;
+}
   /* Hero section */
   /* .hero-section{
     height: calc(100vh-80px);
@@ -99,6 +102,8 @@ nav ul li a:hover{
 }
 .right img{
     width: 100%;
+    height: 670px;
+   
 }
     /* MENU SECTION */
     #menusection{
