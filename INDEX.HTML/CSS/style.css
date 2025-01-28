@@ -215,7 +215,8 @@ nav ul li a:hover{
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
-} **
+}  */
+  /* form registration */
  .form-registration{
     background-color: #344a72;
     font-family: 'Roboto',sans-serif;
@@ -224,12 +225,13 @@ nav ul li a:hover{
     width: 360px;
     height: 620px;
     margin: auto;
-    /* margin-top: 20px; */
+    margin-top: 20px;
+  }
     .form-registration{
     background-color: white;
     border-radius: 3px;
 
-  }
+    }
   h1{
     text-align: center;
     padding-top: 15px;
@@ -272,9 +274,9 @@ nav ul li a:hover{
     font-size: 15px;
     color: #000;
   }
-  a{
-    color: #000;
-  }
+  /* a{
+    /* color: #000; */
+  */
   .para-2{
     text-align: center;
     color: white;
@@ -283,5 +285,5 @@ nav ul li a:hover{
   }
   .para-2 a{
     color: #49c1a2;
-  }
+  } 
  
