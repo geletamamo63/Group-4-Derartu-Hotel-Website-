@@ -58,28 +58,32 @@ nav ul li a:hover{
 .menu-icon{
   display: none;
 }
+.hero-section .left{
+    text-align: center;
+}
   /* Hero section */
-  .hero-section{
+  /* .hero-section{
     height: calc(100vh-80px);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 100px 4rem;
 }
-.hero-section .left{
+.hero-section .left {
      width: 50%;
+    
 }
 .hero-section .left h1{
     font-size: 42px;
-}
-.hero-section .left p{
+} */
+/* .hero-section .left p{
     font-size: 18px;
     color: #888;
     padding-block: 20px;
-}
-.hero-section .left a{
+} */
+/* .hero-section .left a{
     font-weight: 600;
-}
+} */
 .btn{
     background:#f44336 ;
     padding: 12px 30PX;
@@ -89,11 +93,17 @@ nav ul li a:hover{
 .btn:hover{
     background: #e91101;
 }
-.hero-section .right{
-    width: 50%;
-}
+/* .hero-section .right{
+    width: 100%;
+} */
 .hero-section .right img{
     width: 100%;
+    margin: 0 auto;
+}
+.right img{
+    width: 100%;
+    height: 670px;
+   
 }
     /* MENU SECTION */
     #menusection{
