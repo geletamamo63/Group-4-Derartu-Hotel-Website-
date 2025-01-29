@@ -1,68 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
 
-*{
-    margin: 0;
-    padding: 0;
-   
-    box-sizing: border-box;
-    font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-body{
-    background-color: rgb(64, 63,63);
-    color: #fff;
+body {
+  background-color: rgb(64, 63, 63);
+  color: #fff;
 }
-a{
-    text-decoration: none;
-    color:  #fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-nav{
-    background: #000;
-    padding: 1rem 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    height: 80px;
-    
+nav {
+  background: #000;
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: 80px;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 40px;
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-nav ul li a{
-    font-size: 18px;
+nav ul li a {
+  font-size: 18px;
 }
-nav ul li a::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    margin-right: auto;
-    transition: 0.4s;
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-right: auto;
+  transition: 0.4s;
 }
-nav ul li a:hover::after{
-    width: 100%;
+nav ul li a:hover::after {
+  width: 100%;
 }
-nav ul li a:hover{
-    color:#f44336 ;
+nav ul li a:hover {
+  color: #f44336;
 }
-.fa-bars{
+.fa-bars {
   font-size: 24px;
   cursor: pointer;
- 
 }
-.menu-icon{
+.menu-icon {
   display: none;
 }
-.hero-section .left{
-    text-align: center;
+.hero-section .left {
+  text-align: center;
 }
-  /* Hero section */
-  /* .hero-section{
+/* Hero section */
+/* .hero-section{
     height: calc(100vh-80px);
     display: flex;
     align-items: center;
@@ -84,67 +81,66 @@ nav ul li a:hover{
 /* .hero-section .left a{
     font-weight: 600;
 } */
-.btn{
-    background:#f44336 ;
-    padding: 12px 30PX;
-    display: inline-block;
-    transition: 0.4s;
+.btn {
+  background: #f44336;
+  padding: 12px 30px;
+  display: inline-block;
+  transition: 0.4s;
 }
-.btn:hover{
-    background: #e91101;
+.btn:hover {
+  background: #e91101;
 }
 /* .hero-section .right{
     width: 100%;
 } */
-.hero-section .right img{
-    width: 100%;
-    margin: 0 auto;
+.hero-section .right img {
+  width: 100%;
+  margin: 0 auto;
 }
-.right img{
-    width: 100%;
-    height: 670px;
-   
+.right img {
+  width: 100%;
+  height: 670px;
 }
-    /* MENU SECTION */
-    #menusection{
-        padding: 100px 4rem;
-    }
-    #menusection h2{
-        text-align: center;
-        font-size: 28px;
-    }
-    .menu-container{
-        padding: 80px 0;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 40px;
-    }
-  .menu-item{
-    width: 320px;
-    background: #fff;
-    padding: 20px;
-  }
-  .menu-item img{
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  .menu-item h4{
-    padding-block: 15px;
-    color: #000;
-  }
-  #trendsection{
-    padding: 100px 4rem;
-    /* padding-top: 40px; */
-  }
+/* MENU SECTION */
+#menusection {
+  padding: 100px 4rem;
+}
+#menusection h2 {
+  text-align: center;
+  font-size: 28px;
+}
+.menu-container {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.menu-item {
+  width: 320px;
+  background: #fff;
+  padding: 20px;
+}
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.menu-item h4 {
+  padding-block: 15px;
+  color: #000;
+}
+#trendsection {
+  padding: 100px 4rem;
+  /* padding-top: 40px; */
+}
 
-#trendsection h2{
+#trendsection h2 {
   font-size: 28px;
   text-align: center;
 }
-.trending-container{
+.trending-container {
   padding: 60px 0;
   display: flex;
   align-items: center;
@@ -152,31 +148,31 @@ nav ul li a:hover{
   gap: 40px;
   flex-wrap: wrap;
 }
-.trend-item{
+.trend-item {
   width: 320px;
   height: 320px;
   background: #fff;
   padding: 6px;
   overflow: hidden;
 }
-.trend-item img{
+.trend-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.4s;
 }
-.trend-item img:hover{
+.trend-item img:hover {
   transform: scale(1.3);
 }
 /* testimonial section */
-#testimonialSection{
+#testimonialSection {
   padding: 100px 4rem;
 }
-#testimonialSection h2{
+#testimonialSection h2 {
   font-size: 28px;
   text-align: center;
 }
-.testimonial-container{
+.testimonial-container {
   padding: 60px;
   display: flex;
   align-items: center;
@@ -184,7 +180,7 @@ nav ul li a:hover{
   flex-wrap: wrap;
   gap: 40px;
 }
-.testimonial{
+.testimonial {
   width: 220px;
   background: #fff;
   text-align: center;
@@ -192,12 +188,12 @@ nav ul li a:hover{
   padding: 20px;
   border-radius: 12px;
 }
-.testimonial img{
+.testimonial img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
 }
-.testimonial p{
+.testimonial p {
   font-size: 13px;
   padding-top: 20px;
 }
@@ -216,82 +212,79 @@ nav ul li a:hover{
   flex-wrap: wrap;
   gap: 40px;
 }  */
-  /* form registration */
- .form-registration{
-    background-color: #344a72;
-    font-family: 'Roboto',sans-serif;
-  }
-  .Signup-box{
-    width: 360px;
-    height: 620px;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .login-box{
-    width: 360px;
-    height: 280px;
-    margin: auto;
-    border-radius: 3px;
-    background-color: white;
-    margin-top: 60px;
-  }
-    .form-registration{
-    background-color: white;
-    border-radius: 3px;
-
-    }
-  h1{
-    text-align: center;
-    padding-top: 15px;
-    color: black
-  }
-  h4{
-    text-align: center;
-    color: black;
-  }
-  form{
-    width: 300px;
-    margin-left: 20px;
-  }
-  form label{
-    display: flex;
-    margin-top: 20px;
-    font-size: 18px;
-    color: rgb(10, 10, 10);
-  }
-  form input{
-    width: 100%;
-    padding: 7px;
-    border: none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
-  }
-  input[type="button"]{
-    width: 320px;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: #49c149;
-    color: white;
-    font-size: 18px;
-  }
-  p{
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
-    color: #000;
-  }
-  /* a{
+/* form registration */
+.form-registration {
+  background-color: #344a72;
+  font-family: "Roboto", sans-serif;
+}
+.Signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  margin-top: 20px;
+}
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 60px;
+}
+.form-registration {
+  background-color: white;
+  border-radius: 3px;
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+}
+h4 {
+  text-align: center;
+  color: black;
+}
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(10, 10, 10);
+}
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c149;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #000;
+}
+/* a{
     /* color: #000; */
-  */
-  .para-2{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    margin-top: -10px;
-  }
-  .para-2 a{
-    color: #49c1a2;
-  } 
- 
+*/ .para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
