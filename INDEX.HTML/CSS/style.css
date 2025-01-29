@@ -26,6 +26,14 @@ nav {
   top: 0;
   height: 80px;
 }
+.logo img {
+  width: 80px;
+  border-radius: 5px;
+}
+.block h1 {
+  margin-right: 500px;
+}
+
 nav ul {
   display: flex;
   align-items: center;
