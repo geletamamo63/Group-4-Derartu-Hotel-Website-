@@ -240,7 +240,6 @@ nav ul li a:hover {
   margin-top: 60px;
 }
 .form-registration {
-  background-color: white;
   border-radius: 3px;
 }
 h1 {
@@ -291,8 +290,37 @@ p {
   text-align: center;
   color: white;
   font-size: 15px;
-  margin-top: -10px;
+  
 }
 .para-2 a {
-  color: #49c1a2;
+  color: red
+  
+}
+/* footer */
+footer{
+  padding: 40px 4rem;
+  background: #000;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+.col h3{
+  font-weight: 700;
+}
+.col p{
+  font-size: 13px;
+  color: #8b8b8b;
+  
+}
+.col-1{
+  width: 300px;
+}
+.col h3{
+  padding-bottom: 20px;
+}
+.col li{
+  color: #8b8b8b
 }
