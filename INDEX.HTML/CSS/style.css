@@ -227,6 +227,14 @@ nav ul li a:hover{
     margin: auto;
     margin-top: 20px;
   }
+  .login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 60px;
+  }
     .form-registration{
     background-color: white;
     border-radius: 3px;
