@@ -16,6 +16,11 @@ a {
 li {
   list-style: none;
 }
+.fa-bars{
+  font-size: 24px;
+  cursor: pointer;
+ 
+}
 nav {
   background: #000;
   padding: 1rem 4rem;
@@ -42,6 +47,7 @@ nav ul {
 nav ul li a {
   font-size: 18px;
 }
+
 nav ul li a::after {
   content: "";
   display: block;
@@ -323,4 +329,16 @@ footer{
 }
 .col li{
   color: #8b8b8b
+}
+@media(max-width:800px){
+  nav ul{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: #000;
+    flex-direction: column;
+    overflow: hidden;
+    transition:max-height 0.5s;
+  }
 }
