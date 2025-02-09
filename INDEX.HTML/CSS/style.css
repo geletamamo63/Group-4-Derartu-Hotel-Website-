@@ -224,6 +224,49 @@ nav ul li a:hover {
  background-color: azure;
 }
 /* form registration */
+.bode {
+    font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     background-color : #004227;
+     flex-direction: column;
+ }
+ .container {
+     background: palegreen;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 400px;
+     margin-bottom: 20px;
+     height: 100%;
+ }
+ input, select, textarea {
+     width: 100%;
+     padding: 8px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+ .error {
+     color: red;
+     font-size: 12px;
+ }
+ button {
+     width: 100%;
+     padding: 10px;
+     background: blue;
+     color: white;
+     border: none;
+     cursor: pointer;
+     border-radius: 4px;
+ }
+ button:hover {
+     background: darkblue;
+ }
+
 
 /* .form-registration {
   background-color: #344a72;
@@ -290,7 +333,7 @@ p {
 }
 /* a{
     /* color: #000; */
-*/ .para-2 {
+ /* .para-2 {
   text-align: center;
   color: white;
   font-size: 15px;
@@ -299,7 +342,7 @@ p {
 .para-2 a {
   color: red
   
-} */
+}  */
 /* footer */
 footer{
   padding: 40px 4rem;
