@@ -230,11 +230,11 @@ nav ul li a:hover {
      justify-content: center;
      align-items: center;
      height: 100%;
-     background-color : #004227;
+     background-color : darkgrey;
      flex-direction: column;
  }
  .container {
-     background: palegreen;
+     background: red accents with white text;
      padding: 20px;
      border-radius: 8px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
