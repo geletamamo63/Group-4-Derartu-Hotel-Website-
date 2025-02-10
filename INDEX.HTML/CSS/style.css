@@ -16,11 +16,6 @@ a {
 li {
   list-style: none;
 }
-.fa-bars{
-  font-size: 24px;
-  cursor: pointer;
- 
-}
 nav {
   background:#004274;
   padding: 1rem 4rem;
@@ -65,10 +60,10 @@ nav ul li a:hover {
 .fa-bars {
   font-size: 24px;
   cursor: pointer;
-}
-.menu-icon {
+} 
+ .menuicon {
   display: none;
-}
+} 
 /* .hero-section .left {
   text-align: center;
 } */
@@ -149,10 +144,10 @@ nav ul li a:hover {
   padding-block: 15px;
   color: #000;
 }
+/* trend section */
 #trendsection {
-  padding: 20px 4rem;
+  padding: 40px 4rem;
   
-  /* padding-top: 40px; */
 }
 
 #trendsection h2 {
@@ -160,7 +155,7 @@ nav ul li a:hover {
   text-align: center;
 }
 .trending-container {
-  padding: 60px 0;
+  padding: 60px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,12 +211,45 @@ nav ul li a:hover {
   font-size: 13px;
   padding-top: 20px;
 }
-.multi h1{
+#contain{
+padding: 20px 4rem;
+background-color:#004274;
+}
+ h1{
+  font-size: 28px;
   text-align: center;
 }
-.multi video {
- width: 100%;
- background-color: azure;
+.multi{
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.vido{
+  width: 420px;
+  height: 320px;
+  background: #fff;
+  padding: 6px;
+  overflow: hidden;
+}
+.vido video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.audio{
+  width: 420px;
+  height: 320px;
+  background: #fff;
+  padding: 6px;
+  overflow: hidden;
+}
+.audio audio{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* form registration */
 .bode {
@@ -372,16 +400,27 @@ footer{
   color: #8b8b8b
 }
 /* media query */
-@media(max-width:800px){
+@media(max-width:1000px){
+  .menuicon {
+    display: block;
+  }
   nav ul{
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     right: 0;
-    background: #000;
+    background:#000;
+    text-align: center;
     flex-direction: column;
+    
     overflow: hidden;
     transition:max-height 0.5s;
+  }
+  nav ul li:last-child{
+    padding-bottom: 40px;
+  }
+  .menu-icon.active + ul {
+    display: flex;
   }
 }
 
