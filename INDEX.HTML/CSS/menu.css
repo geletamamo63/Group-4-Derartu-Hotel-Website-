@@ -42,3 +42,12 @@
     padding-block: 15px;
     color: #000;
   }
+  .btn {
+  background: #f44336;
+  padding: 
+  display: inline-block;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: #e91101;
+}
