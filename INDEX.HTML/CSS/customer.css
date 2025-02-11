@@ -1,0 +1,38 @@
+/* testimonial section */
+body {
+  background-color: rgb(64, 63, 63);
+  color: #fff;
+}
+
+#testimonialSection {
+  padding: 100px 4rem;
+}
+#testimonialSection h2 {
+  font-size: 28px;
+  text-align: center;
+}
+.testimonial-container {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.testimonial {
+  width: 220px;
+  background: #fff;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  border-radius: 12px;
+}
+.testimonial img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.testimonial p {
+  font-size: 13px;
+  padding-top: 20px;
+}
