@@ -44,7 +44,7 @@ let menulinks=document.getElementById("menulinks")
 let menuicon=document.getElementById("menuicon")
 menulinks.style.maxHeight="0px"
 menuicon.addEventListener("click",()=>{
-    if(menulinks.style.maxHeight="0px"){
+    if(menulinks.style.maxHeight==="0px"){
         menulinks.style.maxHeight="350px"
     }else{
         menulinks.style.maxHeight="0px"
