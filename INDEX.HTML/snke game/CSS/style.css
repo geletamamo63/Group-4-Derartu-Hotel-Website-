@@ -2,3 +2,17 @@
     background-color: black;
     text-align: center;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make the body take up the full height of the window */
+body {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: palegreen; /* Optional: Add a background color */
+}
