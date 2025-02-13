@@ -52,7 +52,6 @@ function direction(event){
       d = "down";
   }
 }
-//  geleta
 // Function to draw our snake and the food 
 function draw() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -65,6 +64,7 @@ function draw() {
       ctx.strokeRect(snake[i].x,snake[i].y,scale,scale);  
 	}
 	console.log(snake);
+    //  nafyad
 	// Draw food 
 	ctx.fillStyle = "#ff0";
 	ctx.strokeStyle = "green";
