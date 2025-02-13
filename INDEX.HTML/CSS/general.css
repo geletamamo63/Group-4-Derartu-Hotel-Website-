@@ -373,6 +373,13 @@ p {
   
 }  */
 /* footer */
+h3{
+  text-align: center;
+}
+h3 a{
+  color: #f44336;
+  font-size: 50px;
+}
 footer{
   padding: 40px 4rem;
   background: #000;
