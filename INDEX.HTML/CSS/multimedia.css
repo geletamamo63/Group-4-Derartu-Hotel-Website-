@@ -18,7 +18,7 @@
     .vido{
       width: 420px;
       height: 320px;
-      background: #fff;
+      background: blue;
       padding: 6px;
       overflow: hidden;
     }
@@ -30,7 +30,7 @@
     .audio{
       width: 420px;
       height: 320px;
-      background: #fff;
+      background: white;
       padding: 6px;
       overflow: hidden;
     }
