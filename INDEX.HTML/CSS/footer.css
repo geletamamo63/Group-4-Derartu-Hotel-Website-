@@ -1,0 +1,39 @@
+/* footer */
+* {
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body {
+    background-color: rgb(64, 63, 63);
+    color: #fff;
+  }
+footer{
+    padding: 40px 4rem;
+    background: #000;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  
+  }
+  .col h3{
+    font-weight: 700;
+  }
+  .col p{
+    font-size: 13px;
+    color: #8b8b8b;
+    
+  }
+  .col-1{
+    width: 300px;
+  }
+  .col h3{
+    padding-bottom: 20px;
+  }
+  .col li{
+    color: #8b8b8b
+  }
