@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url(./back.png.jpg);
+    
+    font-family: sans-serif;
+}
+.box2{
+    height: 430px;
+    width: 300px;
+    background-color: rgba(2, 0, 5, 0.905);
+    opacity: 80%;
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 60%;
+    padding: 25px 25px;
+    border-radius: 30px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    font-size: 25px;
+}
+.err{
+ color: red;   
+}
+.box2 input{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.box2 input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid#fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    columns: #fff;
+    font-size: 15px;
+}
+.box2 input[type="email"]{
+    border: none;
+    border-bottom: 1px solid#fff;
+    background-color:transparent;
+    outline: none;
+    height: 40px;
+    columns: #fff;
+    font-size: 15px;
+}
+.box2 input[type="radio"]{
+    width: auto;
+    
+    
+    
+
+}
+.box2 input[type="submit"]{
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #ffc107;
+    font-size: 18px;
+    outline: none;
+    height: 40px;
+   
+}
+.box2 input[type="submit"]:hover{
+   cursor: pointer;
+   background-color: #ffc107;
+   
+}  
+/* headder */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width:  100%;
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #004274;
+    position: relative;
+    height: 70px;
+}
+.logo{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 800px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-icon{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+ 

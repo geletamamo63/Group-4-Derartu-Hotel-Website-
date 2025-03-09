@@ -1,0 +1,348 @@
+<html>
+    <head>
+        <body>
+            <a href="login.php" style="text-decoration: none; text-align:right;
+            display:block; ">logout</a>
+            <h1 style="text-align: center; border-bottom:4px solid blueviolet;color:blueviolet; opacity:0.6;
+            margin-bottom:0; font-style:italic;">WELL COME TO OUR HOTEL</h1>
+           <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive food website design tutorial</title>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         #testimonialSection{
+            border-left: 1px  solid white;
+            border-right: 1px  solid white;
+            border-top: 6px  solid white;
+            border-bottom: 6px  solid white;
+
+         }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./css/IMAGES/logo photo.jpg.jpg" alt="">
+              </div>
+              <div class="block">
+     <h1>DERARTU <br>HOTEL</h1>
+        </div>
+        <ul id="menulinks">
+            <li><a href="#herosection">home</a></li>
+            <li><a href=" #menusection">menu</a></li>
+            <li><a href="#trendsection">trends</a></li>
+            <li><a href="#testimonialSection">reviews</a></li>
+            <li><a href="#contactform">contact</a></li>
+        </ul>
+    
+        <div class="menuicon">
+            <i class="fa fa-bars" id="menuicon" aria-hidden="true"></i>
+        </div>
+     </nav>
+     <!-- Hero-section -->
+     <div id="herosection"class="hero-section">
+        <div class="left">
+            <h2> <em> <i>WELL COME TO DERARTU HOTEL</i> <br>Derartu hotel is a haven for food lovers, where every <br>
+                 dish is crafted with passion and care</em></h2>
+            <!-- <p> From the freshest ingredients to a warm and inviting ambiance,<br>
+                 we create the perfect setting for unforgettable dining experiences 
+                <br>
+                Join us and let our delicious flavors and exceptional <br>
+                service make your visit truly special! <br>
+                </p> -->
+                <!-- <a href="" class="btn">Explore More</a> -->
+
+        </div>
+        <div class="right">
+           
+            <img src="./css/IMAGES/photo_2025-01-28_15-11-47.jpg" alt="">
+
+        </div>
+
+      </div>
+      <hr><hr><hr>
+        <!-- menu-section -->
+         <section id="menusection">
+            <h2>Our Food Menu</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="./css/IMAGES/BREAD.PNG.jpg" alt="">
+                    <h4>DAABBOO AJAJAAN NI HOJJENNA <br>WE MADE BREAD BY ORDER</h4>
+                    <div class="btn">COMMENT</div>
+                </div>
+            <div class="menu-item">
+                <img src="./css/IMAGES/beye aynet.jpg.jpg" alt="">
+                <h4>BEYEAYINET NI JIRA <br> THERE IS BYEAYINET</h4>
+                <div class="btn">COMMENT</div>
+            </div>
+            <div class="menu-item">
+                <img src="./css/IMAGES/raw meat.jpg.jpg" alt="">
+                <h4>RAW MEAT/XIRE SIGA/ <br> FOON DHEEDHIIN NI JIRA</h4>
+                <div class="btn">COMMENT</div>
+
+            </div>
+            <div class="menu-item">
+                <img src="./css/IMAGES/Drinking beer.jpg.jpg" alt="">
+                <h4>DHUGAATIIN NI JIRA<br>MEXEX ALE</h4>
+                <div class="btn">COMMENT</div>
+
+            </div>
+            <div class="menu-item">
+                <img src="./css/IMAGES/SHINII.PNG.jpg" alt="">
+                <h4>SINII YOOKIIIN QODAA ITTIIN <br> BUNA DHUGAN</h4>
+                <div class="btn">COMMENT</div>
+
+            </div>
+            <div class="menu-item">
+                <img src="./css/IMAGES/COFFEE.PNG.jpg" alt="">
+                <h4>BUNNI NI JIRA <br> BUNA ALE</h4>
+                <div class="btn">COMMENT</div>
+            </div>
+            </div>
+
+         </section>
+
+         <!-- TRENDING OF FOOD -->
+         <section id="trendsection">
+            <h2>Trending Food</h2>
+            <div class="trending-container">
+              <div class="trend-item">
+                  <img src="./css/IMAGES/gomen photo.jpg.jpg" alt="">
+              </div>
+              <div class="trend-item">
+                  <img src="./css/IMAGES/kinche.jpg.jpg" alt="">
+              </div>
+              <div class="trend-item">
+                  <img src="./css/IMAGES/kitfo.jpg.jpg" alt="">
+              </div>
+            </div>
+          </section>
+          <!-- /* inline css AND TABLE TAG */ -->
+          <style>
+           
+            body h2{
+                text-align: center;
+                color: aqua;
+            }
+            table {
+                border-collapse: collapse;
+                width: 99%;
+                margin: 0 auto;
+            }
+            th, td {
+                border: 2px solid #ddd;
+                text-align: center;
+                padding: 10px;
+                color:peru
+            }
+            th {
+                background-color: #1727b7;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Food Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Food Type</th>
+                    <th>Price(Birr)</th>
+                    <th>Calories(Cal)</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BREAD</td>
+                    <td>12</td>
+                    <td>150</td>
+                    <td>CARBOHYDRATE</td>
+                </tr>
+                <tr>
+                    <td>TIBSE</td>
+                    <td>650</td>
+                    <td>350</td>
+                    <td>PROTEIN</td>
+                </tr>
+                <tr>
+                    <td>RAW MEAT</td>
+                    <td>700</td>
+                    <td>400</td>
+                    <td>FATS</td>
+                </tr>
+                 <tr>
+                    <td>ATAKILT</td>
+                    <td>350</td>
+                    <td>250</td>
+                    <td>VITAMIN</td>
+                </tr>
+                 <tr>
+                    <td>DORO WEXI</td>
+                    <td>900</td>
+                    <td>550</td>
+                    <td>PROTEIN</td>
+                </tr>
+                 <tr>
+                    <td>KITFO</td>
+                    <td>800</td>
+                    <td>500</td>
+                    <td>PROTEIN</td>
+                </tr>
+            </tbody>
+           
+            
+        </table>
+
+          <!-- testimonial or feedback -->
+    <section id="testimonialSection">
+        <h2>Customer Reviews</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <img src="./css/IMAGES/eating lunch.jpg.jpg" alt="">
+                <p>            
+                    🌟🌟🌟🌟🌟
+                    Absolutely Amazing!
+                    I had the pleasure of dining at [Restaurant Name] last night,<br> 
+                    and it was an incredible experience! <br>From the moment I walked in, the staff was warm, welcoming, and attentive. 
+                    <br>The ambiance is cozy yet stylish, making it the <br>perfect spot for a relaxing meal.</p>
+            </div>
+            <div class="testimonial">
+                <img src="./css/IMAGES/eating raw meat.jpg.jpg" alt="">
+                <p>  
+                    🌟🌟🌟🌟🌟
+                    Absolutely Amazing!
+                    I had the pleasure of dining at [Restaurant Name] last night,<br> 
+                    and it was an incredible experience! From the moment I walked in, 
+                    <br>the staff was warm, welcoming, and attentive. <br>The ambiance is cozy yet stylish, making it the 
+                    <br>perfect spot for a relaxing meal.</p>
+            </div>
+            <div class="testimonial">
+                <img src="./css/IMAGES/Drinking beer.jpg.jpg" alt="">
+                <p>   
+                    🌟🌟🌟🌟🌟
+                    Absolutely Amazing!
+                    I had the pleasure of dining at [Restaurant Name] last night,
+                     <br>and it was an incredible experience! From the moment I walked in,
+                     <br> the staff was warm, welcoming, and attentive. <br>The ambiance is cozy yet stylish, making it the 
+                     <br>perfect spot for a relaxing meal.</p>
+            </div>
+        </div>
+    </section>
+    <!-- blog section -->
+     <!-- <section id="blogsection">
+        <h2>Read Food Blogs</h2>
+        <div class="blog-container">
+          <div class="blog">
+              <img src="../images/photo_2024-10-30_20-21-29 (4).jpg" alt="">
+              <h4>Latest Food Blog</h4>
+              <div class="btn"> Read More</div>
+          </div>
+          <div class="blog">
+            <img src="../images/photo_2024-10-30_20-21-29 (4).jpg" alt="">
+            <h4>Latest Food Blog</h4>
+            <div class="btn"> Read More</div>
+        </div>
+        <div class="blog">
+            <img src="../images/photo_2024-10-30_20-21-29 (4).jpg" alt="">
+            <h4>Latest Food Blog</h4>
+            <div class="btn"> Read More</div>
+        </div>
+
+      </div>
+
+     </section> -->
+   <section id="contain">
+    <h1>MULTIMEDIA</h1>
+     <div class="multi">
+        <div class="vido">
+        <video src="../video/hotel promotion video (2).mp4" autoplay controls>
+        </video>
+    </div>
+    <div class="audio">
+        <audio src="../video/bonclassical.mp3" autoplay controls></audio>
+    </div>
+    </div>
+</section>
+      <!-- REGISTRATION FORM -->
+
+
+      <!--  -->
+
+<h3><a href="../snke game/HTML/index.html">play game</a></h3>
+     <!-- </section>
+       <section id="contactform"class="form-registration">
+       <div class="Signup-box">
+       <h2>Sign Up</h2>
+       <h4>it is free and only takes a minute</h4>
+       <form>
+        <label>First Name</label>
+        <input type="text" placeholder="">
+        <label>Last Name</label>
+        <input type="text" placeholder="">
+        <label>Password</label>
+        <input type="password" placeholder="">
+        <label>Email</label>
+        <input type="email" placeholder="">
+        <label>Phone No</label>
+        <input type="phone" placeholder="">
+        <label>Confirm password</label>
+        <input type="password" placeholder="">
+        <input type="button" value="submit">
+       </form>
+       <p>By clicking the Sign Up button,you agree to our <br>
+    <a href="#">Terms and Condition</a> and <a href="#">Policy privacy</a>
+</p>
+</div>
+<p class="para-2">Already have an account? <a href="login.html">Login here</a></p>
+</section>  -->
+<!-- footer -->
+<section>
+    <footer>
+        <div class="col col-1">
+            <h3>About Us</h3>
+            <p>Derartu hotel is located in assela town and it has presented with <br>many favorite and delicious food based on our customer interest <br></p>
+        </div>
+        <div class="col">
+            <h3>Our Food</h3>
+            <ul>
+                <li>Quantity</li>
+                <li>Affordable</li>
+                <li>Best Price</li>
+                <li>Low Cost</li>
+            </ul>
+
+        </div>
+        <div class="col">
+            <h3></h3>Offers
+            <ul>
+                <li>20% off</li>
+                <li>tresh 1st meal</li>
+                <li>quality</li>
+                <li>Affordable</li>
+            </ul>
+
+        </div>
+        <div class="col">
+            <h3>Contact Us </h3>
+            <ul>
+                <li>Linkdin</li>
+                <li>Facebook</li>
+                <li>instagram</li>
+                <li>twitter</li>
+            </ul>
+
+        </div>
+    </footer> 
+ </section>
+    
+
+<script src="../JS/SCRIPT.js"></script>
+<!-- <script src="../JS/SCRIPT.js"></script -->
+</body>
+</html>
