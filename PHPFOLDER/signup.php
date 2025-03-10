@@ -1,5 +1,6 @@
 
-<?php
+
+     <?php
 // Initialize variables
 $fname = $lname = $email = $sex = $pass1 = $pass2 = "";
 $err = [];
@@ -35,7 +36,6 @@ if (isset($_POST['signup'])) {
     if (mysqli_num_rows($result) > 0) {
         array_push($err, "Email already exists.");
     }
-
     // If no errors, register the user
     if (count($err) === 0) {
         // Hash the password
@@ -55,12 +55,6 @@ if (isset($_POST['signup'])) {
     }
 }
 ?>
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
