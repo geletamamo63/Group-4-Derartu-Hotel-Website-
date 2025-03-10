@@ -1,40 +1,5 @@
 
-<?php
-// Initialize variables
-$fname = $lname = $email = $sex = $pass1 = $pass2 = "";
-$err = [];
-$congra = "";
 
-// Database connection
-$conn = mysqli_connect("localhost", "root", "", "db");
-if (!$conn) {
-    die("Database connection failed: " . mysqli_connect_error());
-}
-
-// Form submission handling
-if (isset($_POST['signup'])) {
-    // Sanitize inputs
-    $fname = mysqli_real_escape_string($conn, $_POST['fname']);
-    $lname = mysqli_real_escape_string($conn, $_POST['lname']);
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $sex = mysqli_real_escape_string($conn, $_POST['sex']);
-    $pass1 = mysqli_real_escape_string($conn, $_POST['pass1']);
-    $pass2 = mysqli_real_escape_string($conn, $_POST['pass2']);
-
-    // Validation
-    if ($pass1 !== $pass2) {
-        array_push($err, "The two passwords do not match.");
-    }
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        array_push($err, "Invalid email format.");
-    }
-
-    // Check if user already exists
-    $user_check_query = "SELECT * FROM users WHERE email = '$email' LIMIT 1";
-    $result = mysqli_query($conn, $user_check_query);
-    if (mysqli_num_rows($result) > 0) {
-        array_push($err, "Email already exists.");
-    }
 
     // If no errors, register the user
     if (count($err) === 0) {
