@@ -1,4 +1,4 @@
-  <?php
+<?php
 $fname = "";
 $password = "";
 $err = "";
