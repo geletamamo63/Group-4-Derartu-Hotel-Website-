@@ -36,7 +36,7 @@
         <ul id="menulinks">
             <li><a href="#herosection"></a></li>
             <li><a href=" #menusection"></a></li>
-            <li><a href="#trendsection"></a></li>
+            <li><a href="crud.php">VIEW ALL MEMBERS</a></li>
             <li><a href="signup.php">SIGNUP</a></li>
             <li><a href="login.php">LOGIN</a></li>
         </ul>

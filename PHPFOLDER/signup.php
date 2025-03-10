@@ -71,7 +71,6 @@ if (isset($_POST['signup'])) {
         <h1>DERARTU <br>HOTEL</h1>
         </div>
         <ul>
-            <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Service</a></li>
             <li><a href="">Product</a></li>
@@ -103,7 +102,8 @@ if (isset($_POST['signup'])) {
         <input type="password" name="pass2" id="" placeholder="confirm password"required>
        
         <input type="submit" value="signup" name="signup">
-        Already a member? <a href="login.php" style="color: #ffc107;">login</a>
+        Already a member? <a href="login.php" style="color: #ffc107;">LOGIN</a><br>
+       /////// <a href="crud.php" style="color:rgb(7, 255, 57);">VIEW ALL USERS</a>//////
         </form>
         
     </div>

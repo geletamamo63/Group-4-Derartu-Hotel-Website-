@@ -45,7 +45,8 @@ if (isset($_POST['login'])) {
         <input type="text" name="fname" id="fname" placeholder="Enter username">
         <input type="password" name="password" id="password" placeholder="Enter password">
         <input type="submit" value="Login" name="login">
-        Not yet a member? <a href="signup.php" style="color: #ffc107;">Signup</a>
+        Not yet a member? <a href="signup.php" style="color: #ffc107;">SIGNUP</a><br>
+        ///////<a href="crud.php" style="color:rgb(7, 255, 98);">VIEW ALL USERS</a>//////
     </form>
 </div>
 
