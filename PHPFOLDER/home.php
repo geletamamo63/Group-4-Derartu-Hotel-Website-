@@ -34,11 +34,11 @@
      <h1>DERARTU <br>HOTEL</h1>
         </div>
         <ul id="menulinks">
-            <li><a href="#herosection">home</a></li>
-            <li><a href=" #menusection">menu</a></li>
-            <li><a href="#trendsection">trends</a></li>
-            <li><a href="#testimonialSection">reviews</a></li>
-            <li><a href="#contactform">contact</a></li>
+            <li><a href="#herosection"></a></li>
+            <li><a href=" #menusection"></a></li>
+            <li><a href="#trendsection"></a></li>
+            <li><a href="signup.php">SIGNUP</a></li>
+            <li><a href="login.php">LOGIN</a></li>
         </ul>
     
         <div class="menuicon">
