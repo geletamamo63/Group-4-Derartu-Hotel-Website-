@@ -92,7 +92,19 @@ if (isset($_POST['signup'])) {
         <?php
             echo $congra;
             ?>
-        
+        <form action="signup.php" method="post">
+        <input type="text" name="fname" id="" placeholder="enter first name" required>
+        <input type="text" name="lname" id="" placeholder="enter last name" required>
+        <input type="email" name="email" id="" placeholder="enter email" required>
+        <label>sex</label>
+        <input type="radio" name="sex" id="" value="male" required>male
+        <input type="radio" name="sex" id="" value="male" required>female
+        <input type="password" name="pass1" id="" placeholder="enter password"required>
+        <input type="password" name="pass2" id="" placeholder="confirm password"required>
+       
+        <input type="submit" value="signup" name="signup">
+        Already a member? <a href="login.php" style="color: #ffc107;">login</a>
+        </form>
         
     </div>
 </body>
